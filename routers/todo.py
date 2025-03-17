@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 from ..models import Base, Todo
 from ..database import engine, SessionLocal
 from pathlib import Path
-from ..routers.auth import get_current_user
+from routers.auth import get_current_user
 import google.generativeai as genai
 import os
 from langchain_google_genai import ChatGoogleGenerativeAI
